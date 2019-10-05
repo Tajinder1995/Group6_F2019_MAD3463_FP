@@ -33,5 +33,9 @@ public class Employee
         int birthYear= currentYear-age;
         return birthYear;
     }
+    public void printMyData(){
+
+    }
+
 
 }
