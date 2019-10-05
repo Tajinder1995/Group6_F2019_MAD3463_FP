@@ -1,5 +1,7 @@
 package com.lambton;
 
+import java.time.LocalDate;
+
 public class Employee
 {
     private String name;
@@ -24,6 +26,12 @@ public class Employee
     protected Employee(String name, int age) {
         this.name = name;
         this.age = age;
+    }
+    public int calcBirthYear(){
+        LocalDate currentDate= LocalDate.now();
+        int currentYear= currentDate.getYear();
+        int birthYear= currentYear-age;
+        return birthYear;
     }
 
 }
