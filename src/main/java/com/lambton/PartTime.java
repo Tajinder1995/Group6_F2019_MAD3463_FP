@@ -18,5 +18,12 @@ public class PartTime
     public void setRate(float rate) {
         this.rate = rate;
     }
+    public float getHoursWorked() {
+        return hoursWorked;
+    }
+
+    public void setHoursWorked(float hoursWorked) {
+        this.hoursWorked = hoursWorked;
+    }
 
 }
